@@ -1,0 +1,25 @@
+\begin{thebibliography}{}
+
+\bibitem[Bennett et~al., ]{bennett_teleporting_1993}
+Bennett, C.~H., Brassard, G., Crépeau, C., Jozsa, R., Peres, A., and Wootters,
+  W.~K.
+\newblock Teleporting an unknown quantum state via dual classical and
+  einstein-podolsky-rosen channels.
+\newblock 70(13):1895--1899.
+
+\bibitem[Briegel et~al., ]{briegel_measurement-based_2009}
+Briegel, H.~J., Browne, D.~E., Dür, W., Raussendorf, R., and Nest, M. V.~d.
+\newblock Measurement-based quantum computation.
+\newblock 5(1):19--26.
+
+\bibitem[Raussendorf and Briegel, ]{raussendorf_one-way_2001}
+Raussendorf, R. and Briegel, H.~J.
+\newblock A one-way quantum computer.
+\newblock 86(22):5188--5191.
+
+\bibitem[Raussendorf et~al., ]{raussendorf_measurement-based_2003}
+Raussendorf, R., Browne, D.~E., and Briegel, H.~J.
+\newblock Measurement-based quantum computation with cluster states.
+\newblock 68(2):022312.
+
+\end{thebibliography}
