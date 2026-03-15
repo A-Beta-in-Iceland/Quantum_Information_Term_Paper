@@ -147,6 +147,7 @@ Similarly, a general $SU(2)$ rotation can be realized on a 5 qubit cluster. For 
     \caption{The figure provides the measurement pattern on 5 qubit cluster to realize an arbitrary $\pi/2$-phase gate.}
     \label{Pi2}
 \end{figure}
+
 In the previous section, I described the scheme to construct the measurement pattern for a general $SU(2)$ rotation. The measurement must be performed in the order specified. However, there is a special class of single qubit gates where the measurement can be performed simultaneously. In this section, I will give two examples of such gates, Hadamard gate and $\pi/2$-phase gate.\par
 
 Both gates are constructed on a 5-qubit cluster. 
@@ -160,12 +161,38 @@ Both gates are constructed on a 5-qubit cluster.
 \end{itemize}
 
 \section{Quantum Circuit: Logical Network}
-\begin{figure*}
+\begin{figure*} 
     \centering
     \includegraphics[width=1\linewidth]{Logical Network.png}
     \caption{}
     \label{Logical Network}
 \end{figure*}
+In this section, I will show how the measurement pattern indeed realize a quantum circuit and is equivalent as a chain a quantum gates. Namely, I will be showing the below two schemes are equivalent.\par
+
+For any form of procedure, the cluster needed $\mathcal{C}(g)$ can be decomposed into three parts, an input cluster $\mathcal{C}_I(g)$, a body cluster $\mathcal{C}_M(g)$, and an output cluster $\mathcal{C}_O(g)$. with the properties
+\begin{align*}
+    C_I(g) \cup C_M(g) \cup C_O(g) &= C(g)\\
+    C_I(g) \cap C_M(g) &= \emptyset\\
+    C_I(g) \cap C_O(g) &= \emptyset\\
+    C_M(g) \cap C_O(g) &= \emptyset
+\end{align*}
+Scheme 1 (Quantum Gates):
+\begin{itemize}
+    \item Start with the state $\ket{\psi_{in}}_{1,9}\left(\bigotimes_{i\in\mathcal{C}_M \cup \mathcal{C}_O}\ket{+}_i\right)$
+    \item Prepare the cluster state by applying $S^{(\mathcal{C}(g))}$
+    \item Measure the qubits in the cluster $\mathcal{C}_I(g) \cup \mathcal{C}_M(g)$ with some projector 
+        \begin{align*}
+            P^{(\mathcal{C}_I(g) \cup \mathcal{C}_M(g))} &= \bigotimes_{k\in\mathcal{C}_I(g) \cup \mathcal{C}_M(g)} \frac{1 + (-1)^{s_k}\vec{r_k}\cdot\vec{\sigma}_k}{2}\\
+        \end{align*}
+    where $s_k$ is some binary value based on the previous measurement outcomes, and $\vec{r_k}$ is a unit vector in the $x$-$y$ plane.
+\end{itemize}
+Then, the measurement output is
+\begin{align*}
+    \ket{\Psi}&= P^{(\mathcal{C}_I(g) \cup \mathcal{C}_M(g))} S^{(\mathcal{C}(g))} \ket{\psi_{in}}_{1,9}\left(\bigotimes_{k\in\mathcal{C}_M \cup \mathcal{C}_O}\ket{+}_i\right)\\
+    &= \left(\bigotimes_{k\in\mathcal{C}_I(g)\cup\mathcal{C}_M} \ket{s_k}_{k, \vec{r_k}}\right)\otimes \ket{\psi_{out}}\\
+    &= \left(\bigotimes_{k\in\mathcal{C}_I(g)\cup\mathcal{C}_M} \ket{s_k}_{k, \vec{r_k}}\right)\otimes U_{\Sigma, g} U_g\ket{\psi_{in}}
+\end{align*}
+with $U_{\Sigma, g} = \bigotimes_{i = 1}^{n} \left(\sigma_x^{i}\right)^{x_i}\left(\sigma_z^{i}\right)^{z_i}$. $\sigma_{x/z}^{i}$ denotes pauli matrices acting on the $i$-th qubit in the output cluster, and $x_i$ and $z_i$ are binary values based on the previous measurement outcomes.\par
 
 \section{Conclusion}
 
