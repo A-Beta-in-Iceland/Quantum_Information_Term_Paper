@@ -167,7 +167,7 @@ Both gates are constructed on a 5-qubit cluster.
     \caption{}
     \label{Logical Network}
 \end{figure*}
-In this section, I will show how the measurement pattern indeed realize a quantum circuit and is equivalent as a chain a quantum gates. Namely, I will be showing the below two schemes are equivalent.\par
+In this section, I will show how the measurement pattern indeed realize a quantum circuit and is equivalent as a chain a quantum gates one by one.\par
 
 For any form of procedure, the cluster needed $\mathcal{C}(g)$ can be decomposed into three parts, an input cluster $\mathcal{C}_I(g)$, a body cluster $\mathcal{C}_M(g)$, and an output cluster $\mathcal{C}_O(g)$. with the properties
 \begin{align*}
@@ -176,7 +176,7 @@ For any form of procedure, the cluster needed $\mathcal{C}(g)$ can be decomposed
     C_I(g) \cap C_O(g) &= \emptyset\\
     C_M(g) \cap C_O(g) &= \emptyset
 \end{align*}
-Scheme 1 (Quantum Gates):
+Hence, to realize a general single gate we follow the scheme:
 \begin{itemize}
     \item Start with the state $\ket{\psi_{in}}_{1,9}\left(\bigotimes_{i\in\mathcal{C}_M \cup \mathcal{C}_O}\ket{+}_i\right)$
     \item Prepare the cluster state by applying $S^{(\mathcal{C}(g))}$
@@ -194,6 +194,32 @@ Then, the measurement output is
 \end{align*}
 with $U_{\Sigma, g} = \bigotimes_{i = 1}^{n} \left(\sigma_x^{i}\right)^{x_i}\left(\sigma_z^{i}\right)^{z_i}$. $\sigma_{x/z}^{i}$ denotes pauli matrices acting on the $i$-th qubit in the output cluster, and $x_i$ and $z_i$ are binary values based on the previous measurement outcomes.\par
 
+The entanglement operator commutes with single qubit measurements, as both of them act on individual qubit. Therefore, performing the scheme above individually for each quantum gate is equivalent to performing a global entanglement and then measurement only scheme. This statement can be shown in a simple consideration of a two quantum gate circuit.\par
+
+Consider the cluster $\mathcal{C}$ where the two gates are performed on. Namely, the quantum circuit is a composite of two gates $g = g_1 \circ g_2$ is realized on a cluster $\mathcal{C}(g) = \mathcal{C}(g_1) \cup \mathcal{C}(g_2)$. Then, the following properties must be true:
+\begin{align*}
+    \mathcal{C}_I(g) = \mathcal{C}_I(g_1) \cup (\mathcal{C}_I(g_2) \setminus \mathcal{C}_O(g_1))\\
+    \mathcal{C}_I(g) = \mathcal{C}_O(g_1) \cup (\mathcal{C}_O(g_2) \setminus \mathcal{C}_I(g_1))
+\end{align*}
+Now, we perform the single quantum gate described before on $\mathcal{C}(g_1)$ with $S_1$ and $P_1$, then perform the same scheme on $S_2$ and $P_2$. Explicitly,
+\begin{align*}
+    S_1 &= \prod_{a,b \in \mathcal{C}(g_1) | b\in nbgh(a)} S^{ab}\\
+    S_2 &= \prod_{a,b \in \mathcal{C}(g_2) | b\in nbgh(a)} S^{ab}\\
+    P_1 &= \bigotimes_{k\in\mathcal{C}_I(g_1) \cup \mathcal{C}_M(g_1)} \frac{1 + (-1)^{s_k}\vec{r_k}\cdot\vec{\sigma}_k}{2}\\
+    P_2 &= \bigotimes_{k\in\mathcal{C}_I(g_2) \cup \mathcal{C}_M(g_2)} \frac{1 + (-1)^{s_k}\vec{r_k}\cdot\vec{\sigma}_k}{2}
+\end{align*}
+The resulting cluster state is
+\begin{align*}
+    \ket{\Psi}_{out} = P_2S_2P_1S_1 \ket{\Psi}_{in}
+\end{align*} 
+
+Now, each qubit where the measurement has been performed on are destroyed. Hence, the condition $(\mathcal{C}_I(g_1) \cup \mathcal{C}_M(g_1))\cap\mathcal{C}(g_2) = \emptyset$ must be true. It immediately follows that $P_2S_2P_1S_1 = P_2P_1S_2S_1$. Hence, we can define that
+\begin{align*}
+    &P^{\mathcal{C}_I(g)\cup \mathcal{C}_M(g)} = P_2P_1\\
+    &S^{\mathcal{C}(g)} = S_2S_1\\
+    &\ket{\Psi}_{out} = P^{\mathcal{C}_I(g)\cup \mathcal{C}_M(g)}S^{\mathcal{C}(g)} \ket{\Psi}_{in}
+\end{align*}
+Therefore, without the loss of generality, we can show through induction that performing a local one qubit scheme is equivalent to performing a global unitary transformation then measurement-only scheme.
 \section{Conclusion}
 
 \end{document}

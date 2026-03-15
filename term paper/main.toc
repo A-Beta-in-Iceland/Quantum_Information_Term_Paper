@@ -13,4 +13,4 @@
 \contentsline {subsection}{\numberline {III.2}$SU(2)$ Rotation}{2}{}
 \contentsline {subsection}{\numberline {III.3}Hadamard and $\pi /2$-Phase Gate}{2}{}
 \contentsline {section}{\numberline {IV}Quantum Circuit: Logical Network}{3}{}
-\contentsline {section}{\numberline {V}Conclusion}{3}{}
+\contentsline {section}{\numberline {V}Conclusion}{4}{}

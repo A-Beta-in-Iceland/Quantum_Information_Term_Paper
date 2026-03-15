@@ -1,9 +1,9 @@
-PWD /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper
+PWD /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.tex
-OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.log
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.tex
+OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revtex4-2.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revtex4-2.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revtex4-2.cls
@@ -506,10 +506,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/braket/braket.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/braket/braket.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/braket/braket.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/braket/braket.sty
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.aux
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.aux
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.aux
-OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.aux
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux
+OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -529,7 +529,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/mainNotes.bib
+OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/mainNotes.bib
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -564,49 +564,49 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.toc
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.toc
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.toc
-OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.toc
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
+OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.pdf
+OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.pdf
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/CNOT.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/CNOT.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/CNOT.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/CNOT.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/CNOT.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/CNOT.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/CNOT.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/CNOT.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/CNOT.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/CNOT.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Rotation.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Rotation.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Rotation.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Rotation.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Rotation.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Hadamard.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Hadamard.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Hadamard.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Hadamard.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Hadamard.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Pi2.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Pi2.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Pi2.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Pi2.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Pi2.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Logical Network.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Logical Network.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Logical Network.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Logical Network.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/Logical Network.png
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.bbl
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.bbl
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.bbl
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.bbl
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.aux
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Rotation.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Rotation.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Rotation.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Rotation.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Rotation.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Hadamard.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Hadamard.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Hadamard.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Hadamard.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Hadamard.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Pi2.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Pi2.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Pi2.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Pi2.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Pi2.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Logical Network.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Logical Network.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Logical Network.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Logical Network.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Logical Network.png
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.bbl
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.bbl
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.bbl
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.bbl
+INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1773341620 "main.aux" "main.bbl" "main" 1773506243
+["bibtex main"] 1773560240 "main.aux" "main.bbl" "main" 1773560407
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "main.aux" 1773341849 2617 5c651e61ca64db0dc31fdc98633461de "pdflatex"
-  "mainNotes.bib" 1773341849 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "main.aux" 1773560395 2617 1bb44e9478c477708a400b735f55fcac "pdflatex"
+  "mainNotes.bib" 1773560395 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1773341848 "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.tex" "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.pdf" "main" 1773506243
-  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.aux" 1773341849 2617 5c651e61ca64db0dc31fdc98633461de ""
-  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.tex" 1773506243 10424 b40bbbe01ccf389519460486e2486226 ""
+["pdflatex"] 1773560394 "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.tex" "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.pdf" "main" 1773560407
+  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux" 1773560395 2617 1bb44e9478c477708a400b735f55fcac ""
+  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.tex" 1773560407 14772 4fed413e252b5d954232a6232cd145db ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -162,15 +162,15 @@
   "Logical Network.png" 1773107318 182035 814e377dbfdd565b7858ecfb6fb5a69f ""
   "Pi2.png" 1773107318 63821 6782deb74907255bc566659727f55eb1 ""
   "Rotation.png" 1773107318 54765 277504dea0050611c6cbca94573bda10 ""
-  "main.aux" 1773341849 2617 5c651e61ca64db0dc31fdc98633461de "pdflatex"
-  "main.bbl" 1773341620 1982 35453d3875d823f0ec9445e740a573d9 "bibtex main"
-  "main.tex" 1773506243 10424 b40bbbe01ccf389519460486e2486226 ""
-  "main.toc" 1773341849 946 a9fb331e71cfb4ea8c8dd564bf785e4c "pdflatex"
+  "main.aux" 1773560395 2617 1bb44e9478c477708a400b735f55fcac "pdflatex"
+  "main.bbl" 1773560240 1982 35453d3875d823f0ec9445e740a573d9 "bibtex main"
+  "main.tex" 1773560407 14772 4fed413e252b5d954232a6232cd145db ""
+  "main.toc" 1773560395 946 b671eae7762124d41da5a9e83c8232ef "pdflatex"
   (generated)
   "main.pdf"
-  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.log"
-  "mainNotes.bib"
   "main.toc"
-  "main.aux"
-  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Final Project/term paper/main.pdf"
   "main.log"
+  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.log"
+  "mainNotes.bib"
+  "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.pdf"
+  "main.aux"
