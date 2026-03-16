@@ -565,10 +565,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
-INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
-OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.toc
 OUTPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.pdf
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/CNOT.png

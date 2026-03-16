@@ -1,10 +1,10 @@
 \contentsline {title}{A One Way Quantum Computer}{1}{}
 \contentsline {abstract}{Abstract}{1}{}
-\contentsline {section}{\numberline {I}Introduction}{1}{}
-\contentsline {subsection}{\numberline {I.1}Quantum Teleportation}{1}{}
 \tocdepth@munge 
 \contentsline {section}{\numberline {}Contents}{1}{}
 \tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{1}{}
+\contentsline {subsection}{\numberline {I.1}Quantum Teleportation}{1}{}
 \contentsline {section}{\numberline {II}Cluster State}{1}{}
 \contentsline {subsection}{\numberline {II.1}Definition of Cluster State}{1}{}
 \contentsline {subsection}{\numberline {II.2}Preparation}{2}{}

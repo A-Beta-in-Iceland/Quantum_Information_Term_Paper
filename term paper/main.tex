@@ -25,21 +25,26 @@
 
 \begin{document}
 
-\title{A One Way Quantum Computer}%
+\title{Measurement Based Quantum Computation}
 
 \author{Yiting Pei}%
 \email{yitingpei2029@u.northwestern.edu}
+\altaffiliation{Northwestern University}
 \date{\today}%
 
 \begin{abstract}
-    Abstract
+    In this paper, I will provide an brief summary of measurement based quantum computation model following the construction of Raussendorf, Browne, and Briegel in 2008. This measurement based model simulates unitary quantum logical network by preparing a string of entangled quantum qubits, known as the cluster state, and perform a sequence of measurement to teleport and computation of some input information. Concatenating cluster construction for single qubit quantum gates immeditately leads to the construction of quantum logical network. An analysis on temporal, operational, and spacial resource consumption also shows that measurement based quantum computation provides an efficient universal construction of quantum computation scheme.
 \end{abstract}
 \maketitle
 
 \section{Introduction}
+The most used model to explain quantum computation is traditionally quantum circuits. Quantum circuits are commonly used to design computation schemes such as quantum error correction and Shor's algorithm. Experiments are also designed to realize the quantum circuits as a logical network of quantum logical gates. For the rest of the paper, quantum circuit and quantum logical network will be used synonymously.\par
+
+An alternative way of realizing quantum computation is through measurement based quantum computation. Robert Raussendorf and Hans Briegel first introduce such scheme in their paper from 2000. Instead of using gates and wires, it proposes a mechanism which realize the computation and transportation of information through a series of specifically designed and adaptive single qubit measurements on a highly entangled qubit cluster state. The entire resource of the computation is provided initially in this entangled cluster. Since measurement would destroy the cluster state, this model is also known as one way quantum computation. This model realizes all the necessary unitary computation of single quantum gate computation and can be concatenated to perform composite computation. As I will show below, it is an effective universal scheme of quantum computation, and can be thought as a simulator of quantum circuits.
+
 
 \subsection{Quantum Teleportation}
-In this section, I will give a brief summary of quantum teleportation. In the simplest case, quantum teleportation is realized on a $3$-qubit state. Assume that Alice holds two qubit and Bob holds one, and Alice wants to teleport one of her qubit, $\ket{\psi} = \alpha\ket{0} + \beta \ket{1}$ to Bob.\par
+In this section, I will give a brief summary of quantum teleportation as a motivation of measurement based model. In the simplest case, quantum teleportation is realized on a $3$-qubit state. Assume that Alice holds two qubit and Bob holds one, and Alice wants to teleport one of her qubit, $\ket{\psi} = \alpha\ket{0} + \beta \ket{1}$ to Bob.\par
 First, Alice and Bob entangle their qubits (that is not the one waiting to be teleported) to a maximally entangled state. Then, the three qubit state becomes
 \begin{align*}
     \ket{\Psi} = \ket{\psi} \otimes \frac{1}{\sqrt{2}} \left(\ket{0} \otimes \ket{0} + \ket{1} \otimes \ket{1}\right)
@@ -48,17 +53,16 @@ Then, Alice performs a unitary transformation on her two qubits $U = (H \otimes 
 \begin{align*}
     \ket{\Psi'} = \ket{00}\ket{\psi} &+ \ket{01}(\alpha\ket{1} + \beta\ket{0}) \\&+ \ket{10}(\alpha\ket{0} - \beta\ket{1}) + \ket{11}(\alpha\ket{1} - \beta\ket{0})
 \end{align*}\par
-The input qubit has sucessfully transported to Bob's Hilbert space, with a distortion. However, this distortion can be corrected based on the measurement on Alice's Hilbert space.\par
+The input qubit has successfully transported to Bob's Hilbert space, with a distortion. However, this distortion can be corrected based on the measurement on Alice's Hilbert space.\par
 \begin{itemize}
     \item If Alice has measurement output $\ket{00}$, the qubit is not altered, hence we apply $\mathbb{I}$ on Bob's qubit.
     \item If Alice's measurement output is $\ket{01}$, the qubit experiences a bit flip, hence we apply a $X$ gate on Bob's qubit.
     \item If Alice's measurement output is $\ket{10}$, the qubit experiences a $\pi$ phase shift, so we apply a $Z$ gate on Bob's qubit.
     \item If Alice's measurement output is $\ket{11}$, the qubit experiences both a bit flip and a $\pi$ phase shift. Hence, we apply a $ZX$ gate on Bob's qubit.
 \end{itemize}
-Combing these three steps, we sucessfully trasport the qubit from Alice's Hilbert space to Bob's Hilbert space without any error.\par
+Combing these three steps, we successfully transport the qubit from Alice's Hilbert space to Bob's Hilbert space without any error.\par
 
-\tableofcontents
-Similarly, with alteration of the size of qubit chain size, entanglement methods, and other details, both an teleportation and unitary transformation can be done over this qubit chain with specified measurement pattern. The paper will be organized as follows: in Sec.II, I will present how to prepare a chain of qubits, known as a cluster state, where the computation happens upon. In Sec.III, I will give the example of construction CNOT gates and $SU(2)$ rotations using this scheme. Finally, in Sec.IV, I will show how a general quantum circuit can be realized as an overall measurement pattern by concatenating single quantum gate clusters.\par
+Similarly, with alteration of the size of qubit chain size, entanglement methods, and other details, both a teleportation and unitary transformation can be done over this qubit chain with specified measurement pattern. The paper will be organized as follows: in Sec.II, I will present how to prepare a chain of qubits, known as a cluster state, where the computation happens upon. In Sec.III, I will give the example of construction CNOT gates and $SU(2)$ rotations using this scheme. Finally, in Sec.IV, I will show how a general quantum circuit can be realized as an overall measurement pattern by concatenating single quantum gate clusters.\par
 
 \section{Cluster State}\label{cluster state}
 \subsection{Definition of Cluster State}
@@ -86,7 +90,7 @@ Following this construction, we can write out the cluster state on 2, 3, 4 qubit
 \end{align*}
 
 
-\section{Construction of Single Quanutm State}\label{qm gates}
+\section{Construction of Single Quantum State}\label{qm gates}
 \subsection{CNOT}
 \begin{figure}[h!]
     \centering
@@ -120,7 +124,7 @@ In this construction, a CNOT gate is realized through a 15 qubit cluster, follow
     \caption{The figure provides the measurement pattern on 5 qubit cluster to realize an arbitrary SU(2) rotation.}
     \label{Rotation}
 \end{figure}
-Similarly, a general $SU(2)$ rotation can be realized on a 5 qubit cluster. For any $U \in SU(2)$ on a qubit, it can be decomposed into the form $U = U_X[\zeta]U_Z[\eta]U_X[\xi]$, correspond to Euler rotation and its three Euler angles. The procedure is as follow:
+Similarly, a general $SU(2)$ rotation can be realized on a 5 qubit cluster. For any $U \in SU(2)$ on a qubit, it can be decomposed into the form $U = U_X[\zeta]U_Z[\eta]U_X[\xi]$, correspond to Euler rotation and its three Euler angles. The procedure is as follows:
 \begin{itemize}
         \item Prepare the state $\ket{\Psi}_{\mathcal{C}_5} = \ket{\psi_{in}}_1 \left(\bigotimes_{i = 2}^5 \ket{+}_i\right)$
         \item Create the cluster state by performing the unitary operation $S^{(\mathcal{C}_5)}$
@@ -155,7 +159,7 @@ In the previous section, I described the scheme to construct the measurement pat
 Both gates are constructed on a 5-qubit cluster. 
 \begin{itemize}
     \item Prepare the 5-qubit cluster state
-    \item Measurement of the first 4 qubit can be performed simultaneously
+    \item Measurement of the first 4 qubits can be performed simultaneously
     \begin{itemize}
         \item Hadamard Gate: $\sigma_x^{(1)}$, $\sigma_y^{(2)}$, $\sigma_y^{(3)}$, $\sigma_y^{(4)}$, $U_{\Sigma, H} = \sigma_x^{s_1+s_3+s_4}\sigma_z^{s_2+s_3}$
         \item $\pi/2$-phase Gate: $\sigma_x^{(1)}$, $\sigma_x^{(2)}$, $\sigma_y^{(3)}$, $\sigma_x^{(4)}$, $U_{\Sigma, H} = \sigma_x^{s_2+s_4}\sigma_z^{s_1+s_2+s_3+1}$.
@@ -171,7 +175,7 @@ Both gates are constructed on a 5-qubit cluster.
 \end{figure*}
 In this section, I will show how the measurement pattern indeed realize a quantum circuit and is equivalent as a chain a quantum gates one by one.\par
 
-For any form of procedure, the cluster needed $\mathcal{C}(g)$ can be decomposed into three parts, an input cluster $\mathcal{C}_I(g)$, a body cluster $\mathcal{C}_M(g)$, and an output cluster $\mathcal{C}_O(g)$. with the properties
+For any form of procedure, the cluster needed $\mathcal{C}(g)$ can be decomposed into three parts, an input cluster $\mathcal{C}_I(g)$, a body cluster $\mathcal{C}_M(g)$, and an output cluster $\mathcal{C}_O(g)$ with the properties
 \begin{align*}
     C_I(g) \cup C_M(g) \cup C_O(g) &= C(g)\\
     C_I(g) \cap C_M(g) &= \emptyset\\
@@ -194,7 +198,7 @@ Then, the measurement output is
     &= \left(\bigotimes_{k\in\mathcal{C}_I(g)\cup\mathcal{C}_M} \ket{s_k}_{k, \vec{r_k}}\right)\otimes \ket{\psi_{out}}\\
     &= \left(\bigotimes_{k\in\mathcal{C}_I(g)\cup\mathcal{C}_M} \ket{s_k}_{k, \vec{r_k}}\right)\otimes U_{\Sigma, g} U_g\ket{\psi_{in}}
 \end{align*}
-with $U_{\Sigma, g} = \bigotimes_{i = 1}^{n} \left(\sigma_x^{i}\right)^{x_i}\left(\sigma_z^{i}\right)^{z_i}$. $\sigma_{x/z}^{i}$ denotes pauli matrices acting on the $i$-th qubit in the output cluster, and $x_i$ and $z_i$ are binary values based on the previous measurement outcomes.\par
+with $U_{\Sigma, g} = \bigotimes_{i = 1}^{n} \left(\sigma_x^{i}\right)^{x_i}\left(\sigma_z^{i}\right)^{z_i}$. $\sigma_{x/z}^{i}$ denotes Pauli matrices acting on the $i$-th qubit in the output cluster, and $x_i$ and $z_i$ are binary values based on the previous measurement outcomes.\par
 
 The entanglement operator commutes with single qubit measurements, as both of them act on individual qubit. Therefore, performing the scheme above individually for each quantum gate is equivalent to performing a global entanglement and then measurement only scheme. This statement can be shown in a simple consideration of a two quantum gate circuit.\par
 
@@ -225,18 +229,18 @@ Therefore, without the loss of generality, we can show through induction that pe
 
 \section{Conclusion}
 
-In this paper, I have summarized the measurement based quantum computation scheme. Motivated from quantum teleportation, measurement on a string of qubits can both propagate and perform unitary transformation on input information. This require proper entanglement of the qubits to form a cluster state using some unitary transformation described in Sec.\ref{cluster state}. Then, with special measurment pattern, whether measurement must be performed in order or simultaneously, quantum gates can be realized on this cluster, with a byproduct that can be corrected based on the measurement result. Finally, concatenation of a network of quantum gates is simply overlapping the cluster for individual quantum gate, which has been justified in Sec.\ref{concatenation}.\par
+In this paper, I have summarized the measurement based quantum computation scheme. Motivated from quantum teleportation, measurement on a string of qubits can both propagate and perform unitary transformation on input information. This requires proper entanglement of the qubits to form a cluster state using some unitary transformation described in Sec.\ref{cluster state}. Then, with special measurement pattern, whether measurement must be performed in order or simultaneously, quantum gates can be realized on this cluster, with a byproduct that can be corrected based on the measurement result. Finally, concatenation of a network of quantum gates is simply overlapping the cluster for individual quantum gate, which has been justified in Sec.\ref{concatenation}.\par
 
 %% Comparison on efficiency of measurement based quantum computing comparing to quantum circuit construction
 
-In order to see the measurement based quantum computation provides for an universal model of quantum computing, its resource consumption must be reasonable. Hence, an analysis on temporal, operational, and spacial resources as well as the comparism to their quantum circuit construction conterparts are required. 
+In order to see the measurement based quantum computation provides for a universal model of quantum computing, its resource consumption must be reasonable. Hence, an analysis on temporal, operational, and spacial resources as well as the comparison to their quantum circuit construction counterparts are required. 
 
-Starting from the temporal resources, the temporal resource consumption is measured by finding the minimum measurement rounds to which the measurement can be compactified. For a CNOT gate on mesurement based quantum computation, only one measurement is needed. For a general rotation, three measurements are needed. Combing those two aspects, the following inequality is established
+Starting from the temporal resources, the temporal resource consumption is measured by finding the minimum measurement rounds to which the measurement can be compacted. For a CNOT gate on measurement based quantum computation, only one measurement is needed. For a general rotation, three measurements are needed. Combing those two aspects, the following inequality is established
 \begin{align*}
     T \le 3T_{qc}
 \end{align*}\par
 
-Then, we can further analyize for spacial and operational resource consumption. Consider a general cluster of height $h$ and width $w$, so that the spacial resource consumption is $S = w \times h$. As can be observed similar in CNOT gate case, the height is to construct different wires, hence the height is $h = 4 S_{gc}-3$. Further, the vertically on at least one of the wire, there must be one quantum gate, hence the width is $w = 6  S_{qc}T_{qc} + 1$. Since each measurement can contain at most one quantum gate,
+Then, we can further analyze for spacial and operational resource consumption. Consider a general cluster of height $h$ and width $w$, so that the spacial resource consumption is $S = w \times h$. As can be observed similar in CNOT gate case, the height is to construct different wires, hence the height is $h = 4 S_{gc}-3$. Further, the vertically on at least one of the wire, there must be one quantum gate, hence the width is $w = 6  S_{qc}T_{qc} + 1$. Since each measurement can contain at most one quantum gate,
 \begin{align*}
     S \le 24 S_{qc}^2T_{qc}
 \end{align*}
