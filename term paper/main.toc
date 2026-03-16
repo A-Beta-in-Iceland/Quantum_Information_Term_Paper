@@ -1,0 +1,16 @@
+\contentsline {title}{A One Way Quantum Computer}{1}{}
+\contentsline {abstract}{Abstract}{1}{}
+\contentsline {section}{\numberline {I}Introduction}{1}{}
+\contentsline {subsection}{\numberline {I.1}Quantum Teleportation}{1}{}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {II}Cluster State}{1}{}
+\contentsline {subsection}{\numberline {II.1}Definition of Cluster State}{1}{}
+\contentsline {subsection}{\numberline {II.2}Preparation}{2}{}
+\contentsline {section}{\numberline {III}Construction of Single Quanutm State}{2}{}
+\contentsline {subsection}{\numberline {III.1}CNOT}{2}{}
+\contentsline {subsection}{\numberline {III.2}$SU(2)$ Rotation}{2}{}
+\contentsline {subsection}{\numberline {III.3}Hadamard and $\pi /2$-Phase Gate}{3}{}
+\contentsline {section}{\numberline {IV}Realizing Quantum Circuit}{3}{}
+\contentsline {section}{\numberline {V}Conclusion}{4}{}

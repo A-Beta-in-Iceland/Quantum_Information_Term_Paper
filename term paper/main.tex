@@ -35,7 +35,6 @@
     Abstract
 \end{abstract}
 \maketitle
-\tableofcontents
 
 \section{Introduction}
 
@@ -58,7 +57,8 @@ The input qubit has sucessfully transported to Bob's Hilbert space, with a disto
 \end{itemize}
 Combing these three steps, we sucessfully trasport the qubit from Alice's Hilbert space to Bob's Hilbert space without any error.\par
 
-Similarly, with alteration of the size of qubit chain size, entanglement methods, and other details, both an teleportation and unitary transformation can be done over this qubit chain with specified measurement pattern. The paper will be organized as follows: in Sec.\ref{cluster state}, I will present how to prepare a chain of qubits, known as a cluster state, where the computation happens upon. In Sec.\ref{qm gates}, I will give the example of construction CNOT gates and $SU(2)$ rotations using this scheme. Finally, in Sec.\ref{concatenation}, I will show how a general quantum circuit can be realized as an overall measurement pattern by concatenating single quantum gate clusters.\par
+\tableofcontents
+Similarly, with alteration of the size of qubit chain size, entanglement methods, and other details, both an teleportation and unitary transformation can be done over this qubit chain with specified measurement pattern. The paper will be organized as follows: in Sec.II, I will present how to prepare a chain of qubits, known as a cluster state, where the computation happens upon. In Sec.III, I will give the example of construction CNOT gates and $SU(2)$ rotations using this scheme. Finally, in Sec.IV, I will show how a general quantum circuit can be realized as an overall measurement pattern by concatenating single quantum gate clusters.\par
 
 \section{Cluster State}\label{cluster state}
 \subsection{Definition of Cluster State}
@@ -247,10 +247,7 @@ Further, for since only single qubit measurements are performed, the operational
     S \le 24 O_{qc}S_{qc}
 \end{align*}
 
-All temporal, operational, and spacial resources are polynomial as compare to the quantum circuit construction. Hence, measurement based quantum computation has a similar efficiency as the quantum circuit model and is indeed an efficient computation scheme.
-
-\nocite{*}
-\bibliography{bib}
+Hence, all temporal, operational, and spacial resources are polynomial as compare to the quantum circuit construction. Hence, measurement based quantum computation has a similar efficiency as the quantum circuit model and is indeed an efficient computation scheme.
 
 \end{document}
 
