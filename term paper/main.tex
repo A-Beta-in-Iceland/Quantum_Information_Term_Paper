@@ -58,8 +58,10 @@ The input qubit has sucessfully transported to Bob's Hilbert space, with a disto
 \end{itemize}
 Combing these three steps, we sucessfully trasport the qubit from Alice's Hilbert space to Bob's Hilbert space without any error.\par
 
-\section{Cluster State}
-\subsection{Definition of Cluster State}\label{cluster state}
+Similarly, with alteration of the size of qubit chain size, entanglement methods, and other details, both an teleportation and unitary transformation can be done over this qubit chain with specified measurement pattern. The paper will be organized as follows: in Sec.\ref{cluster state}, I will present how to prepare a chain of qubits, known as a cluster state, where the computation happens upon. In Sec.\ref{qm gates}, I will give the example of construction CNOT gates and $SU(2)$ rotations using this scheme. Finally, in Sec.\ref{concatenation}, I will show how a general quantum circuit can be realized as an overall measurement pattern by concatenating single quantum gate clusters.\par
+
+\section{Cluster State}\label{cluster state}
+\subsection{Definition of Cluster State}
 To allow the operation of quantum circuit on a lattice of qubits, a cluster state will be needed. Consider an $n$ dimensional lattice of qubits. An $n$-qubit cluster $\mathcal{C}$ is a connected subset of the lattice containing $n$ qubits. Then, the cluster state $\ket{\phi_{\{\kappa\}}}_{\mathcal{C}}$ is direct product of the $n$-qubit state following:
 \begin{align}
     K^{(a)} &= \sigma_x^{(a)} \bigotimes_{b \in nbgh(a)} \sigma_z^{(b)} \notag\\
@@ -84,7 +86,7 @@ Following this construction, we can write out the cluster state on 2, 3, 4 qubit
 \end{align*}
 
 
-\section{Construction of Single Quanutm State}
+\section{Construction of Single Quanutm State}\label{qm gates}
 \subsection{CNOT}
 \begin{figure}[h!]
     \centering
@@ -246,6 +248,9 @@ Further, for since only single qubit measurements are performed, the operational
 \end{align*}
 
 All temporal, operational, and spacial resources are polynomial as compare to the quantum circuit construction. Hence, measurement based quantum computation has a similar efficiency as the quantum circuit model and is indeed an efficient computation scheme.
+
+\nocite{*}
+\bibliography{bib}
 
 \end{document}
 
