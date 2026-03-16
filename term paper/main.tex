@@ -59,7 +59,7 @@ The input qubit has sucessfully transported to Bob's Hilbert space, with a disto
 Combing these three steps, we sucessfully trasport the qubit from Alice's Hilbert space to Bob's Hilbert space without any error.\par
 
 \section{Cluster State}
-\subsection{Definition of Cluster State}
+\subsection{Definition of Cluster State}\label{cluster state}
 To allow the operation of quantum circuit on a lattice of qubits, a cluster state will be needed. Consider an $n$ dimensional lattice of qubits. An $n$-qubit cluster $\mathcal{C}$ is a connected subset of the lattice containing $n$ qubits. Then, the cluster state $\ket{\phi_{\{\kappa\}}}_{\mathcal{C}}$ is direct product of the $n$-qubit state following:
 \begin{align}
     K^{(a)} &= \sigma_x^{(a)} \bigotimes_{b \in nbgh(a)} \sigma_z^{(b)} \notag\\
@@ -160,7 +160,7 @@ Both gates are constructed on a 5-qubit cluster.
     \end{itemize}
 \end{itemize}
 
-\section{Quantum Circuit: Logical Network}
+\section{Realizing Quantum Circuit} \label{concatenation}
 \begin{figure*} 
     \centering
     \includegraphics[width=1\linewidth]{Logical Network.png}
@@ -219,8 +219,33 @@ Now, each qubit where the measurement has been performed on are destroyed. Hence
     &S^{\mathcal{C}(g)} = S_2S_1\\
     &\ket{\Psi}_{out} = P^{\mathcal{C}_I(g)\cup \mathcal{C}_M(g)}S^{\mathcal{C}(g)} \ket{\Psi}_{in}
 \end{align*}
-Therefore, without the loss of generality, we can show through induction that performing a local one qubit scheme is equivalent to performing a global unitary transformation then measurement-only scheme.
+Therefore, without the loss of generality, we can show through induction that performing a local one qubit scheme is equivalent to performing a global unitary transformation then measurement-only scheme.\par
+
 \section{Conclusion}
+
+In this paper, I have summarized the measurement based quantum computation scheme. Motivated from quantum teleportation, measurement on a string of qubits can both propagate and perform unitary transformation on input information. This require proper entanglement of the qubits to form a cluster state using some unitary transformation described in Sec.\ref{cluster state}. Then, with special measurment pattern, whether measurement must be performed in order or simultaneously, quantum gates can be realized on this cluster, with a byproduct that can be corrected based on the measurement result. Finally, concatenation of a network of quantum gates is simply overlapping the cluster for individual quantum gate, which has been justified in Sec.\ref{concatenation}.\par
+
+%% Comparison on efficiency of measurement based quantum computing comparing to quantum circuit construction
+
+In order to see the measurement based quantum computation provides for an universal model of quantum computing, its resource consumption must be reasonable. Hence, an analysis on temporal, operational, and spacial resources as well as the comparism to their quantum circuit construction conterparts are required. 
+
+Starting from the temporal resources, the temporal resource consumption is measured by finding the minimum measurement rounds to which the measurement can be compactified. For a CNOT gate on mesurement based quantum computation, only one measurement is needed. For a general rotation, three measurements are needed. Combing those two aspects, the following inequality is established
+\begin{align*}
+    T \le 3T_{qc}
+\end{align*}\par
+
+Then, we can further analyize for spacial and operational resource consumption. Consider a general cluster of height $h$ and width $w$, so that the spacial resource consumption is $S = w \times h$. As can be observed similar in CNOT gate case, the height is to construct different wires, hence the height is $h = 4 S_{gc}-3$. Further, the vertically on at least one of the wire, there must be one quantum gate, hence the width is $w = 6  S_{qc}T_{qc} + 1$. Since each measurement can contain at most one quantum gate,
+\begin{align*}
+    S \le 24 S_{qc}^2T_{qc}
+\end{align*}
+
+Further, for since only single qubit measurements are performed, the operational resources needed must be less than spacial resources $O \le S$. Also, from a quantum circuit, by definition $O_{qc} \le S_{qc}T_{qc}$
+\begin{align*}
+    S \le 24 O_{qc}S_{qc}\\
+    S \le 24 O_{qc}S_{qc}
+\end{align*}
+
+All temporal, operational, and spacial resources are polynomial as compare to the quantum circuit construction. Hence, measurement based quantum computation has a similar efficiency as the quantum circuit model and is indeed an efficient computation scheme.
 
 \end{document}
 

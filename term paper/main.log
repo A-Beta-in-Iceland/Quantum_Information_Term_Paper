@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  15 MAR 2026 02:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  16 MAR 2026 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,20 +516,20 @@ Underfull \hbox (badness 1215) in paragraph at lines 197--197
 []\OT1/cmr/m/n/10 The en-tan-gle-ment op-er-a-tor com-mutes with sin-gle
  []
 
-[3 </Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Hadamard.png> </Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Pi2.png>] (/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.bbl) [4 </Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Logical Network.png>] (/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux) ) 
+[3 </Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Hadamard.png> </Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Pi2.png>] [4 </Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/Logical Network.png>] (/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.bbl) [5] (/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.aux) ) 
 Here is how much of TeX's memory you used:
- 15060 strings out of 478994
- 288363 string characters out of 5858185
- 584778 words of memory out of 5000000
- 32266 multiletter control sequences out of 15000+600000
+ 15063 strings out of 478994
+ 288403 string characters out of 5858185
+ 585811 words of memory out of 5000000
+ 32269 multiletter control sequences out of 15000+600000
  411675 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,11n,89p,760b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,11n,89p,955b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.pdf" (4 pages, 533726 bytes).
+Output written on "/Users/EvaPei/Desktop/Northwestern/Course/Northwestern_CourseWork/Year_2/Winter/Physics for Quantum Information/Quantum_Information_Term_Paper/term paper/main.pdf" (5 pages, 536898 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
